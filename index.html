@@ -6,15 +6,93 @@
         <link rel="stylesheet" href="./assets/style.css">
     </head>
     <body>
-        <div class="hero">
+        <header class="header">
             <h1>Scottie Blangeres</h1>
             <nav>
-                <a href="#">About</a>
-                <a href="#">My Work</a>
-                <a href="#">More</a>
-                <a href="#">Contact Me</a>
+                <ul>
+                    <li>
+                        <a href="#portrait">Portrait</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact Info</a>
+                    </li>
+                </ul>
             </nav>
-            
-        </div>
+        </header>
+
+        <main>
+            <section class="main">
+                <section class="content">
+                    <div id="portrait" class="portrait">
+                        <h2>Portrait</h2>
+                        <div class="right">
+                            <img src="./assets/images/portrait.JPG">
+                        </div>
+                    </div>
+                </section>
+
+                <section class="content">
+                    <div id="about" class="about">
+                        <h2>About</h2>
+                        <div class="right">
+                            <p>
+                                My name is Scottie Blangeres and I am a current student at UC Davis learning
+                                web development. I was born and raised in Sacramento, California which is
+                                where I still reside.
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section class="content">
+                <div id="work" class="work">
+                    <h2>Work</h2>
+                    <div class="right">
+                        <div class="worklist">
+                            <div class="picture first_pic">
+                                <h3>Wildfire App</h3>
+                                <a href="https://nverhulp.github.io/wildfire-app/">
+                                    <img src="./assets/images/wildfire-app.png" style="width: 100%">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="worklist">
+                            <div class="picture first_pic">
+                                <h3>LetsChat</h3>
+                                <a href="https://young-garden-73264.herokuapp.com/">
+                                    <img src="./assets/images/letschat.png" style="width: 100%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content">
+                <div id="contact" class="contact-me">
+                    <h2>Contact Info</h2>
+                    <div class="right">
+                        <ul>
+                            <li><strong>Email:</strong><a href="mailto:scottblangeres13@gmail.com">scottblangeres13@gmail.com</a></li>
+                            <li><strong>GitHub:</strong><a href="https://github.com/sblangeres1">sblangeres1</a></li>
+                            <li><strong>LinkedIn:</strong></li>
+                        </ul>
+                        <br>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            &copy 2022 Scottie Blangeres
+        </footer>
     </body>
 </html>
